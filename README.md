@@ -16,7 +16,7 @@ This is a full-stack food ordering application built using the MERN stack. It al
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React.js
+- **Frontend:** React.js (Vite)
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB
 - **Payments:** Stripe
@@ -29,23 +29,16 @@ This is a full-stack food ordering application built using the MERN stack. It al
 
 > This project is currently being updated.
 
-- When this app was originally developed, images were stored directly in the `assets` folder.
-- I am now **integrating `multer`** to allow image uploads for food items and profile management.
-- During this update phase, the **live demo link has been temporarily removed** to avoid broken or incomplete behavior.
+- When this app was originally developed, images were stored in the `assets` folder.
+- I am now **integrating `multer`** to support image uploads for food items and profiles.
+- The **live demo link has been temporarily removed** while deployment is updated.
 
 ---
 
 ## 🔧 How to Run Locally
 
-1. Clone the repo and install dependencies in both the `Front-end/Food-App` and `Back-end` directories.
-2. Add your `.env` file with valid values for:
-   - `MONGO_URI`
-   - `JWT_SECRET`
-   - `STRIPE_SECRET_KEY`
-   - etc.
+### 1️⃣ Clone the repository
 
-3. Start the backend:
-   ```bash
-   cd Back-end
-   npm install
-   nodemon server.js
+```bash
+git clone https://github.com/prash459865/Food-Order-MERN-Application.git
+cd Food-Order-MERN-Application
