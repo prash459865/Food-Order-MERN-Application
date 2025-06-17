@@ -50,8 +50,9 @@ This is a full-stack food ordering application built using the MERN stack. It al
    npm install
    nodemon server.js
 
-3. Start the backend:
+3. Start the frontend:
    ```bash
-   cd Back-end
+   cd Front-end
+   cd Food-App
    npm install
-   nodemon server.js
+   npm run dev
