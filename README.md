@@ -40,11 +40,17 @@ This is a full-stack food ordering application built using the MERN stack. It al
 1. Clone the repo and install dependencies in both `Front-end/Food-App` and `Back-end` directories.
 2. Add your `.env` file with proper MongoDB, Stripe, and JWT keys.
 
-3. Start the backend:  
+3. Start the backend:
+     
    cd Back-end
+   
    nodemon server.js
+   
 4.) Start the frontend
+
     cd Front-end
+    
     cd Food-App
+    
     npm run dev
    
